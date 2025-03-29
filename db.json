@@ -158,22 +158,6 @@
       "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx0ZWRkeSUyMGJlYXJ8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
       "prix": 19.99,
       "categories": [4, 8]
-    },
-    {
-      "id": 18,
-      "titre": "Tapis de yoga antidérapant",
-      "description": "Tapis écologique avec excellente adhérence et coussinage pour une pratique confortable du yoga ou du fitness.",
-      "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx5b2dhJTIwbWF0fGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
-      "prix": 29.99,
-      "categories": [5, 8]
-    },
-    {
-      "id": 19,
-      "titre": "Drone avec caméra 4K",
-      "description": "Drone compact avec stabilisation d'image et transmission vidéo en direct pour capturer des vues aériennes époustouflantes.",
-      "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxkcm9uZXxlbnwwfHx8fDE3NDMyNzA3MDJ8MA&ixlib=rb-4.0.3&q=80&w=400",
-      "prix": 499.99,
-      "categories": [1, 5]
     }
   ],
   
