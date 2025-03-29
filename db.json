@@ -203,22 +203,6 @@
       "image": "https://unsplash.com/photos/a-notebook-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
       "prix": 19.99,
       "categories": [8]
-    },
-    {
-      "id": 22,
-      "titre": "Scie circulaire",
-      "description": "Scie électrique portable avec laser de guidage, profondeur de coupe réglable et système de sécurité pour des coupes précises et sûres.",
-      "image": "https://unsplash.com/photos/a-black-circular-saw-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 149.99,
-      "categories": [9]
-    },
-    {
-      "id": 23,
-      "titre": "Kit d'éclairage LED voiture",
-      "description": "Ensemble d'ampoules LED pour remplacer les feux avant, arrière et clignotants de votre véhicule pour une meilleure visibilité et style.",
-      "image": "https://unsplash.com/photos/a-set-of-car-lights-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 69.99,
-      "categories": [10]
     }
   ],
   
