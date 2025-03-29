@@ -251,30 +251,6 @@
       "image": "https://unsplash.com/photos/a-small-jar-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
       "prix": 24.99,
       "categories": [4]
-    },
-    {
-      "id": 28,
-      "titre": "Haltères ajustables",
-      "description": "Paire d'haltères avec poids réglable de 2 à 20 kg chacun, poignée ergonomique et système de verrouillage rapide pour un entraînement complet.",
-      "image": "https://unsplash.com/photos/a-pair-of-black-dumbbells-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 149.99,
-      "categories": [5]
-    },
-    {
-      "id": 29,
-      "titre": "Figurine collector",
-      "description": "Réplique détaillée d'un personnage célèbre, peinte à la main avec des accessoires interchangeables pour les collectionneurs.",
-      "image": "https://unsplash.com/photos/a-small-figure-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 79.99,
-      "categories": [6]
-    },
-    {
-      "id": 30,
-      "titre": "Thé premium",
-      "description": "Sélection de thés en vrac de qualité exceptionnelle, cultivés en altitude et récoltés à la main pour des saveurs uniques et délicates.",
-      "image": "https://unsplash.com/photos/a-box-of-tea-bags-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 34.99,
-      "categories": [7]
     }
   ],
   
