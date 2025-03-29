@@ -150,14 +150,6 @@
       "image": "https://images.unsplash.com/photo-1585506942812-e72b29cef752?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxib2FyZCUyMGdhbWV8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
       "prix": 34.99,
       "categories": [4, 9]
-    },
-    {
-      "id": 17,
-      "titre": "Peluche ours en peluche",
-      "description": "Ours en peluche doux et câlin, parfait cadeau pour les enfants avec des matériaux hypoallergéniques.",
-      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx0ZWRkeSUyMGJlYXJ8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
-      "prix": 19.99,
-      "categories": [4, 8]
     }
   ],
   
