@@ -219,14 +219,6 @@
       "image": "https://unsplash.com/photos/a-set-of-car-lights-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
       "prix": 69.99,
       "categories": [10]
-    },
-    {
-      "id": 24,
-      "titre": "Enceinte Bluetooth",
-      "description": "Haut-parleur portable résistant à l'eau avec son stéréo puissant, autonomie de 20 heures et fonction mains libres pour vos appels.",
-      "image": "https://unsplash.com/photos/a-black-speaker-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 129.99,
-      "categories": [1]
     }
   ],
   
