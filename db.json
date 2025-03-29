@@ -195,14 +195,6 @@
       "image": "https://unsplash.com/photos/a-bottle-of-olive-oil-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
       "prix": 29.99,
       "categories": [7]
-    },
-    {
-      "id": 21,
-      "titre": "Cahier premium",
-      "description": "Carnet de notes avec papier haut grammage, couverture rigide et marque-page intégré pour noter vos idées avec style et élégance.",
-      "image": "https://unsplash.com/photos/a-notebook-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 19.99,
-      "categories": [8]
     }
   ],
   
