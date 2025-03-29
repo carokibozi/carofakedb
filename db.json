@@ -1,309 +1,366 @@
 {
-  "utilisateurs": [
-    { "id": 1, "nom": "Dupont", "prenom": "Jean" },
-    { "id": 2, "nom": "Martin", "prenom": "Sophie" },
-    { "id": 3, "nom": "Bernard", "prenom": "Pierre" },
-    { "id": 4, "nom": "Thomas", "prenom": "Marie" },
-    { "id": 5, "nom": "Petit", "prenom": "Luc" },
-    { "id": 6, "nom": "Robert", "prenom": "Julie" },
-    { "id": 7, "nom": "Richard", "prenom": "Paul" },
-    { "id": 8, "nom": "Durand", "prenom": "Anne" },
-    { "id": 9, "nom": "Dubois", "prenom": "Jacques" },
-    { "id": 10, "nom": "Moreau", "prenom": "Isabelle" },
-    { "id": 11, "nom": "Laurent", "prenom": "Michel" },
-    { "id": 12, "nom": "Simon", "prenom": "Catherine" },
-    { "id": 13, "nom": "Lefebvre", "prenom": "Philippe" },
-    { "id": 14, "nom": "Michel", "prenom": "Valérie" },
-    { "id": 15, "nom": "Garcia", "prenom": "François" },
-    { "id": 16, "nom": "David", "prenom": "Nathalie" },
-    { "id": 17, "nom": "Bertrand", "prenom": "Patrick" },
-    { "id": 18, "nom": "Roux", "prenom": "Sandra" },
-    { "id": 19, "nom": "Vincent", "prenom": "Christophe" },
-    { "id": 20, "nom": "Fournier", "prenom": "Elodie" }
+  "users": [
+    {"id": 1, "nom": "Dupont", "prenom": "Jean"},
+    {"id": 2, "nom": "Martin", "prenom": "Sophie"},
+    {"id": 3, "nom": "Bernard", "prenom": "Pierre"},
+    {"id": 4, "nom": "Thomas", "prenom": "Marie"},
+    {"id": 5, "nom": "Petit", "prenom": "Luc"},
+    {"id": 6, "nom": "Robert", "prenom": "Julie"},
+    {"id": 7, "nom": "Richard", "prenom": "Thomas"},
+    {"id": 8, "nom": "Durand", "prenom": "Camille"},
+    {"id": 9, "nom": "Dubois", "prenom": "Nicolas"},
+    {"id": 10, "nom": "Moreau", "prenom": "Isabelle"},
+    {"id": 11, "nom": "Laurent", "prenom": "David"},
+    {"id": 12, "nom": "Simon", "prenom": "Caroline"},
+    {"id": 13, "nom": "Michel", "prenom": "Alexandre"},
+    {"id": 14, "nom": "Lefebvre", "prenom": "Valérie"},
+    {"id": 15, "nom": "Leroy", "prenom": "François"},
+    {"id": 16, "nom": "Roux", "prenom": "Élodie"},
+    {"id": 17, "nom": "David", "prenom": "Sébastien"},
+    {"id": 18, "nom": "Bertrand", "prenom": "Anne"},
+    {"id": 19, "nom": "Morel", "prenom": "Philippe"},
+    {"id": 20, "nom": "Fournier", "prenom": "Céline"}
   ],
   
   "categories": [
-    { "id": 1, "nom": "Électronique" },
-    { "id": 2, "nom": "Vêtements" },
-    { "id": 3, "nom": "Alimentation" },
-    { "id": 4, "nom": "Maison" },
-    { "id": 5, "nom": "Jardin" },
-    { "id": 6, "nom": "Sport" },
-    { "id": 7, "nom": "Loisirs" },
-    { "id": 8, "nom": "Beauté" },
-    { "id": 9, "nom": "Bébé" },
-    { "id": 10, "nom": "Automobile" }
+    {"id": 1, "name": "Électronique"},
+    {"id": 2, "name": "Vêtements"},
+    {"id": 3, "name": "Maison"},
+    {"id": 4, "name": "Beauté"},
+    {"id": 5, "name": "Sport"},
+    {"id": 6, "name": "Jouets"},
+    {"id": 7, "name": "Alimentation"},
+    {"id": 8, "name": "Livres"},
+    {"id": 9, "name": "Bricolage"},
+    {"id": 10, "name": "Automobile"}
   ],
   
-  "produits": [
+  "products": [
     {
       "id": 1,
-      "titre": "Smartphone X",
-      "description": "Dernier modèle de smartphone avec écran OLED",
-      "prix": 799.99,
+      "titre": "Smartphone Premium",
+      "description": "Un smartphone haut de gamme avec écran AMOLED de 6.5 pouces, processeur rapide et triple caméra professionnelle pour des photos exceptionnelles.",
+      "image": "https://unsplash.com/photos/a-black-smartphone-with-a-white-case-on-a-white-surface-9G7z6BmZQfI",
+      "prix": 899.99,
       "categories": [1]
     },
     {
       "id": 2,
-      "titre": "Ordinateur portable Pro",
-      "description": "Ordinateur portable haute performance",
-      "prix": 1299.99,
+      "titre": "Casque Bluetooth",
+      "description": "Casque audio sans fil avec réduction de bruit active, autonomie de 30 heures et qualité sonore haute définition pour une expérience immersive.",
+      "image": "https://unsplash.com/photos/a-pair-of-black-headphones-sitting-on-top-of-a-white-table-OD9EOzfSOh0",
+      "prix": 199.99,
       "categories": [1]
     },
     {
       "id": 3,
-      "titre": "T-shirt coton",
-      "description": "T-shirt 100% coton unisexe",
-      "prix": 19.99,
+      "titre": "T-shirt en coton bio",
+      "description": "T-shirt confectionné en coton biologique, coupe moderne et design minimaliste pour un look élégant et confortable toute la journée.",
+      "image": "https://unsplash.com/photos/a-white-t-shirt-is-laying-on-a-wooden-table-7gL1ArHxQ4E",
+      "prix": 29.99,
       "categories": [2]
     },
     {
       "id": 4,
-      "titre": "Pantalon jean",
-      "description": "Jean slim fit pour homme",
-      "prix": 49.99,
+      "titre": "Jeans slim",
+      "description": "Jeans ajusté fabriqué avec du denim stretch pour un maximum de confort, disponible en plusieurs coloris pour s'adapter à tous les styles.",
+      "image": "https://unsplash.com/photos/a-pair-of-blue-jeans-are-folded-on-a-table-8gVv6nxq6gY",
+      "prix": 59.99,
       "categories": [2]
     },
     {
       "id": 5,
-      "titre": "Chocolat noir",
-      "description": "Tablette de chocolat noir 70% cacao",
-      "prix": 3.99,
+      "titre": "Coussin décoratif",
+      "description": "Coussin d'intérieur avec motif géométrique, remplissage en plumes synthétiques et housse amovible pour un entretien facile.",
+      "image": "https://unsplash.com/photos/a-white-pillow-sitting-on-top-of-a-wooden-chair-7gL1ArHxQ4E",
+      "prix": 24.99,
       "categories": [3]
     },
     {
       "id": 6,
-      "titre": "Coussin décoratif",
-      "description": "Coussin pour canapé 40x40 cm",
-      "prix": 24.99,
-      "categories": [4]
+      "titre": "Lampe de bureau LED",
+      "description": "Lampe de travail réglable avec technologie LED économe en énergie, intensité lumineuse variable et design ergonomique moderne.",
+      "image": "https://unsplash.com/photos/a-white-desk-lamp-sitting-on-top-of-a-wooden-table-7gL1ArHxQ4E",
+      "prix": 49.99,
+      "categories": [3]
     },
     {
       "id": 7,
-      "titre": "Tondeuse à gazon",
-      "description": "Tondeuse électrique 1500W",
-      "prix": 199.99,
-      "categories": [5]
+      "titre": "Crème hydratante",
+      "description": "Crème visage hydratante à l'acide hyaluronique pour une peau repulpée et protégée des agressions extérieures toute la journée.",
+      "image": "https://unsplash.com/photos/a-white-jar-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 34.99,
+      "categories": [4]
     },
     {
       "id": 8,
       "titre": "Vélo de course",
-      "description": "Vélo route carbone 21 vitesses",
-      "prix": 899.99,
-      "categories": [6]
+      "description": "Vélo de route léger avec cadre en carbone, transmission précise et freins à disque pour des performances optimales sur route.",
+      "image": "https://unsplash.com/photos/a-black-bicycle-leaning-against-a-wall-7gL1ArHxQ4E",
+      "prix": 1499.99,
+      "categories": [5]
     },
     {
       "id": 9,
-      "titre": "Appareil photo",
-      "description": "Appareil photo reflex 24MP",
-      "prix": 599.99,
-      "categories": [7]
+      "titre": "Lego Creator",
+      "description": "Set de construction avec 1500 pièces pour créer différents modèles selon votre imagination, stimulant la créativité des enfants.",
+      "image": "https://unsplash.com/photos/a-set-of-colored-blocks-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 89.99,
+      "categories": [6]
     },
     {
       "id": 10,
-      "titre": "Crème hydratante",
-      "description": "Crème visage 50ml",
-      "prix": 29.99,
-      "categories": [8]
+      "titre": "Chocolats assortis",
+      "description": "Assortiment de chocolats fins avec différentes garnitures, fabriqués artisanalement à partir de cacao d'origine équitable.",
+      "image": "https://unsplash.com/photos/a-box-of-chocolates-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 19.99,
+      "categories": [7]
     },
     {
       "id": 11,
-      "titre": "Couches bébé",
-      "description": "Lot de 50 couches taille 3",
-      "prix": 24.99,
-      "categories": [9]
+      "titre": "Roman best-seller",
+      "description": "Dernier roman à suspense d'un auteur primé, avec une intrigue captivante et des personnages complexes qui vous tiendront en haleine.",
+      "image": "https://unsplash.com/photos/a-book-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 14.99,
+      "categories": [8]
     },
     {
       "id": 12,
-      "titre": "Pneu hiver",
-      "description": "Pneu 205/55 R16",
-      "prix": 89.99,
-      "categories": [10]
+      "titre": "Perceuse sans fil",
+      "description": "Perceuse-visseuse puissante avec batterie lithium-ion, couple réglable et système de changement rapide de mèches pour tous vos projets.",
+      "image": "https://unsplash.com/photos/a-black-drill-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 129.99,
+      "categories": [9]
     },
     {
       "id": 13,
-      "titre": "Casque audio",
-      "description": "Casque sans fil avec réduction de bruit",
-      "prix": 199.99,
-      "categories": [1]
+      "titre": "Kit de nettoyage voiture",
+      "description": "Ensemble complet pour l'entretien automobile comprenant shampooing, cire, chiffons microfibres et produits pour plastiques intérieurs.",
+      "image": "https://unsplash.com/photos/a-set-of-cleaning-products-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 39.99,
+      "categories": [10]
     },
     {
       "id": 14,
-      "titre": "Sac à dos",
-      "description": "Sac à dos 30L waterproof",
-      "prix": 59.99,
-      "categories": [2,6]
+      "titre": "Montre connectée",
+      "description": "Montre intelligente avec suivi d'activité, monitoring cardiaque, notifications smartphone et autonomie de 7 jours pour rester connecté.",
+      "image": "https://unsplash.com/photos/a-black-smartwatch-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 249.99,
+      "categories": [1]
     },
     {
       "id": 15,
-      "titre": "Café en grains",
-      "description": "Paquet de 1kg de café arabica",
-      "prix": 12.99,
-      "categories": [3]
+      "titre": "Pull en laine",
+      "description": "Pull chaud en laine mérinos, coupe droite et col rond, idéal pour les saisons froides tout en restant élégant et confortable.",
+      "image": "https://unsplash.com/photos/a-gray-sweater-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 79.99,
+      "categories": [2]
     },
     {
       "id": 16,
-      "titre": "Set de couteaux",
-      "description": "6 couteaux de cuisine inox",
-      "prix": 79.99,
-      "categories": [4]
+      "titre": "Cafetière programmable",
+      "description": "Machine à café filtre avec minuterie, fonction keep-warm et filtre permanent pour préparer votre café préféré automatiquement le matin.",
+      "image": "https://unsplash.com/photos/a-black-coffee-maker-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 59.99,
+      "categories": [3]
     },
     {
       "id": 17,
-      "titre": "Barbecue",
-      "description": "Barbecue charbon de bois 57cm",
-      "prix": 129.99,
-      "categories": [5]
+      "titre": "Serum anti-âge",
+      "description": "Sérum concentré en vitamine C et E pour réduire les signes de l'âge, unifier le teint et protéger la peau des radicaux libres.",
+      "image": "https://unsplash.com/photos/a-small-bottle-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 49.99,
+      "categories": [4]
     },
     {
       "id": 18,
       "titre": "Tapis de yoga",
-      "description": "Tapis antidérapant 183x61cm",
-      "prix": 29.99,
-      "categories": [6]
+      "description": "Tapis antidérapant épais pour le yoga et le pilates, offrant un bon amorti et une excellente adhérence pendant les séances d'entraînement.",
+      "image": "https://unsplash.com/photos/a-blue-yoga-mat-rolled-up-on-a-white-table-7gL1ArHxQ4E",
+      "prix": 34.99,
+      "categories": [5]
     },
     {
       "id": 19,
-      "titre": "Livre best-seller",
-      "description": "Roman à suspense",
-      "prix": 14.99,
-      "categories": [7]
+      "titre": "Puzzle 1000 pièces",
+      "description": "Puzzle complexe avec motif artistique de haute qualité, pièces découpées avec précision pour un défi stimulant et relaxant.",
+      "image": "https://unsplash.com/photos/a-jigsaw-puzzle-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 24.99,
+      "categories": [6]
     },
     {
       "id": 20,
-      "titre": "Parfum",
-      "description": "Eau de toilette 100ml",
-      "prix": 69.99,
-      "categories": [8]
+      "titre": "Huile d'olive premium",
+      "description": "Huile d'olive extra vierge de première pression à froid, produite artisanalement pour une saveur fruitée intense et des arômes complexes.",
+      "image": "https://unsplash.com/photos/a-bottle-of-olive-oil-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 29.99,
+      "categories": [7]
     },
     {
       "id": 21,
-      "titre": "Poussette",
-      "description": "Poussette canne pliante",
+      "titre": "Cahier premium",
+      "description": "Carnet de notes avec papier haut grammage, couverture rigide et marque-page intégré pour noter vos idées avec style et élégance.",
+      "image": "https://unsplash.com/photos/a-notebook-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 19.99,
+      "categories": [8]
+    },
+    {
+      "id": 22,
+      "titre": "Scie circulaire",
+      "description": "Scie électrique portable avec laser de guidage, profondeur de coupe réglable et système de sécurité pour des coupes précises et sûres.",
+      "image": "https://unsplash.com/photos/a-black-circular-saw-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
       "prix": 149.99,
       "categories": [9]
     },
     {
-      "id": 22,
-      "titre": "Batterie voiture",
-      "description": "Batterie 12V 60Ah",
-      "prix": 99.99,
+      "id": 23,
+      "titre": "Kit d'éclairage LED voiture",
+      "description": "Ensemble d'ampoules LED pour remplacer les feux avant, arrière et clignotants de votre véhicule pour une meilleure visibilité et style.",
+      "image": "https://unsplash.com/photos/a-set-of-car-lights-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 69.99,
       "categories": [10]
     },
     {
-      "id": 23,
-      "titre": "Tablette tactile",
-      "description": "Tablette 10 pouces 128Go",
-      "prix": 349.99,
+      "id": 24,
+      "titre": "Enceinte Bluetooth",
+      "description": "Haut-parleur portable résistant à l'eau avec son stéréo puissant, autonomie de 20 heures et fonction mains libres pour vos appels.",
+      "image": "https://unsplash.com/photos/a-black-speaker-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 129.99,
       "categories": [1]
     },
     {
-      "id": 24,
-      "titre": "Manteau d'hiver",
-      "description": "Manteau imperméable avec capuche",
-      "prix": 129.99,
+      "id": 25,
+      "titre": "Veste en cuir",
+      "description": "Veste en cuir véritable doublée, avec fermeture à glissière et poches fonctionnelles pour un look intemporel et élégant.",
+      "image": "https://unsplash.com/photos/a-black-leather-jacket-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 299.99,
       "categories": [2]
     },
     {
-      "id": 25,
-      "titre": "Huile d'olive",
-      "description": "Huile d'olive extra vierge 1L",
-      "prix": 9.99,
+      "id": 26,
+      "titre": "Robot multifonction",
+      "description": "Robot de cuisine polyvalent avec plusieurs accessoires pour hacher, mixer, pétrir et cuire, simplifiant la préparation des repas.",
+      "image": "https://unsplash.com/photos/a-white-kitchen-appliance-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 399.99,
       "categories": [3]
     },
     {
-      "id": 26,
-      "titre": "Lustre moderne",
-      "description": "Lustre 5 ampoules design",
-      "prix": 149.99,
-      "categories": [4]
-    },
-    {
       "id": 27,
-      "titre": "Taille-haie",
-      "description": "Taille-haie électrique 600W",
-      "prix": 89.99,
-      "categories": [5]
+      "titre": "Masque facial",
+      "description": "Masque purifiant à l'argile pour nettoyer en profondeur les pores, absorber l'excès de sébum et laisser la peau douce et rafraîchie.",
+      "image": "https://unsplash.com/photos/a-small-jar-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 24.99,
+      "categories": [4]
     },
     {
       "id": 28,
       "titre": "Haltères ajustables",
-      "description": "Set de 2 haltères 10kg",
-      "prix": 49.99,
-      "categories": [6]
+      "description": "Paire d'haltères avec poids réglable de 2 à 20 kg chacun, poignée ergonomique et système de verrouillage rapide pour un entraînement complet.",
+      "image": "https://unsplash.com/photos/a-pair-of-black-dumbbells-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 149.99,
+      "categories": [5]
     },
     {
       "id": 29,
-      "titre": "Jeu de société",
-      "description": "Jeu familial pour 2-6 joueurs",
-      "prix": 34.99,
-      "categories": [7]
+      "titre": "Figurine collector",
+      "description": "Réplique détaillée d'un personnage célèbre, peinte à la main avec des accessoires interchangeables pour les collectionneurs.",
+      "image": "https://unsplash.com/photos/a-small-figure-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 79.99,
+      "categories": [6]
     },
     {
       "id": 30,
-      "titre": "Sérum visage",
-      "description": "Sérum anti-âge 30ml",
-      "prix": 39.99,
-      "categories": [8]
+      "titre": "Thé premium",
+      "description": "Sélection de thés en vrac de qualité exceptionnelle, cultivés en altitude et récoltés à la main pour des saveurs uniques et délicates.",
+      "image": "https://unsplash.com/photos/a-box-of-tea-bags-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
+      "prix": 34.99,
+      "categories": [7]
     }
-    
   ],
   
   "paniers": [
     {
       "id": 1,
       "produits": [
-        { "titre": "Smartphone X", "quantité": 1, "montant": 799.99 },
-        { "titre": "Écran PC", "quantité": 1, "montant": 149.99 }
+        {"titre": "Smartphone Premium", "quantité": 1, "montant": 899.99},
+        {"titre": "Casque Bluetooth", "quantité": 1, "montant": 199.99}
       ]
     },
     {
       "id": 2,
       "produits": [
-        { "titre": "T-shirt coton", "quantité": 2, "montant": 39.98 },
-        { "titre": "Pantalon jean", "quantité": 1, "montant": 49.99 }
+        {"titre": "T-shirt en coton bio", "quantité": 3, "montant": 89.97},
+        {"titre": "Jeans slim", "quantité": 1, "montant": 59.99}
       ]
     },
     {
       "id": 3,
       "produits": [
-        { "titre": "Chocolat noir", "quantité": 5, "montant": 19.95 },
-        { "titre": "Café en grains", "quantité": 2, "montant": 25.98 }
+        {"titre": "Coussin décoratif", "quantité": 2, "montant": 49.98},
+        {"titre": "Lampe de bureau LED", "quantité": 1, "montant": 49.99}
       ]
     },
     {
       "id": 4,
       "produits": [
-        { "titre": "Coussin décoratif", "quantité": 3, "montant": 74.97 },
-        { "titre": "Nappe de jardin", "quantité": 1, "montant": 24.99 }
+        {"titre": "Crème hydratante", "quantité": 1, "montant": 34.99},
+        {"titre": "Serum anti-âge", "quantité": 1, "montant": 49.99}
       ]
     },
     {
       "id": 5,
       "produits": [
-        { "titre": "Vélo de course", "quantité": 1, "montant": 899.99 },
-        { "titre": "Casque audio", "quantité": 1, "montant": 199.99 }
+        {"titre": "Vélo de course", "quantité": 1, "montant": 1499.99},
+        {"titre": "Casque Bluetooth", "quantité": 1, "montant": 199.99}
       ]
     },
     {
       "id": 6,
       "produits": [
-        { "titre": "Crème hydratante", "quantité": 1, "montant": 29.99 },
-        { "titre": "Parfum", "quantité": 1, "montant": 69.99 }
+        {"titre": "Lego Creator", "quantité": 1, "montant": 89.99},
+        {"titre": "Puzzle 1000 pièces", "quantité": 1, "montant": 24.99}
       ]
     },
     {
       "id": 7,
       "produits": [
-        { "titre": "Poussette", "quantité": 1, "montant": 149.99 },
-        { "titre": "Couches bébé", "quantité": 2, "montant": 49.98 }
+        {"titre": "Chocolats assortis", "quantité": 2, "montant": 39.98},
+        {"titre": "Huile d'olive premium", "quantité": 1, "montant": 29.99}
       ]
     },
     {
       "id": 8,
       "produits": [
-        { "titre": "Pneu hiver", "quantité": 4, "montant": 359.96 },
-        { "titre": "Lave-glace", "quantité": 2, "montant": 15.98 }
+        {"titre": "Roman best-seller", "quantité": 1, "montant": 14.99},
+        {"titre": "Cahier premium", "quantité": 2, "montant": 39.98}
+      ]
+    },
+    {
+      "id": 9,
+      "produits": [
+        {"titre": "Perceuse sans fil", "quantité": 1, "montant": 129.99},
+        {"titre": "Scie circulaire", "quantité": 1, "montant": 149.99}
+      ]
+    },
+    {
+      "id": 10,
+      "produits": [
+        {"titre": "Kit de nettoyage voiture", "quantité": 1, "montant": 39.99},
+        {"titre": "Kit d'éclairage LED voiture", "quantité": 1, "montant": 69.99}
+      ]
+    },
+    {
+      "id": 11,
+      "produits": [
+        {"titre": "Montre connectée", "quantité": 1, "montant": 249.99},
+        {"titre": "Enceinte Bluetooth", "quantité": 1, "montant": 129.99}
+      ]
+    },
+    {
+      "id": 12,
+      "produits": [
+        {"titre": "Pull en laine", "quantité": 1, "montant": 79.99},
+        {"titre": "Veste en cuir", "quantité": 1, "montant": 299.99}
       ]
     }
   ]
