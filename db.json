@@ -142,14 +142,6 @@
       "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx3YXRlciUyMGJvdHRsZXxlbnwwfHx8fDE3NDMyNzA3MDJ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "prix": 24.99,
       "categories": [3, 7]
-    },
-    {
-      "id": 16,
-      "titre": "Jeu de société stratégique",
-      "description": "Jeu de plateau pour 2-4 joueurs avec mécanismes innovants et parties d'environ 60 minutes d'engagement.",
-      "image": "https://images.unsplash.com/photo-1585506942812-e72b29cef752?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxib2FyZCUyMGdhbWV8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
-      "prix": 34.99,
-      "categories": [4, 9]
     }
   ],
   
