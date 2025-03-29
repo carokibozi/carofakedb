@@ -305,27 +305,6 @@
         { "titre": "Pneu hiver", "quantité": 4, "montant": 359.96 },
         { "titre": "Lave-glace", "quantité": 2, "montant": 15.98 }
       ]
-    },
-    {
-      "id": 9,
-      "produits": [
-        { "titre": "Barbecue", "quantité": 1, "montant": 129.99 },
-        { "titre": "Charbon de bois", "quantité": 3, "montant": 29.97 }
-      ]
-    },
-    {
-      "id": 10,
-      "produits": [
-        { "titre": "Livre best-seller", "quantité": 1, "montant": 14.99 },
-        { "titre": "Cahier dessin", "quantité": 2, "montant": 19.98 }
-      ]
-    },
-    {
-      "id": 11,
-      "produits": [
-        { "titre": "Chaussures running", "quantité": 1, "montant": 89.99 },
-        { "titre": "Tapis de yoga", "quantité": 1, "montant": 29.99 }
-      ]
     }
   ]
 }
