@@ -174,14 +174,6 @@
       "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxkcm9uZXxlbnwwfHx8fDE3NDMyNzA3MDJ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "prix": 499.99,
       "categories": [1, 5]
-    },
-    {
-      "id": 20,
-      "titre": "Console de jeu portable",
-      "description": "Console de nouvelle génération avec écran tactile et bibliothèque de jeux intégrée pour le divertissement mobile.",
-      "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBjb25zb2xlfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
-      "prix": 299.99,
-      "categories": [1, 4]
     }
   ],
   
@@ -218,20 +210,6 @@
       "produits": [
         { "titre": "Cafetière programmable", "quantité": 1, "montant": 59.99 },
         { "titre": "Bouteille d'eau isotherme", "quantité": 2, "montant": 49.98 }
-      ]
-    },
-    {
-      "id": 4,
-      "produits": [
-        { "titre": "Drone avec caméra 4K", "quantité": 1, "montant": 499.99 },
-        { "titre": "Console de jeu portable", "quantité": 1, "montant": 299.99 }
-      ]
-    },
-    {
-      "id": 5,
-      "produits": [
-        { "titre": "Chaussures de running", "quantité": 1, "montant": 89.99 },
-        { "titre": "Tapis de yoga antidérapant", "quantité": 1, "montant": 29.99 }
       ]
     }
   ]
