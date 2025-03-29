@@ -227,30 +227,6 @@
       "image": "https://unsplash.com/photos/a-black-speaker-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
       "prix": 129.99,
       "categories": [1]
-    },
-    {
-      "id": 25,
-      "titre": "Veste en cuir",
-      "description": "Veste en cuir véritable doublée, avec fermeture à glissière et poches fonctionnelles pour un look intemporel et élégant.",
-      "image": "https://unsplash.com/photos/a-black-leather-jacket-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 299.99,
-      "categories": [2]
-    },
-    {
-      "id": 26,
-      "titre": "Robot multifonction",
-      "description": "Robot de cuisine polyvalent avec plusieurs accessoires pour hacher, mixer, pétrir et cuire, simplifiant la préparation des repas.",
-      "image": "https://unsplash.com/photos/a-white-kitchen-appliance-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 399.99,
-      "categories": [3]
-    },
-    {
-      "id": 27,
-      "titre": "Masque facial",
-      "description": "Masque purifiant à l'argile pour nettoyer en profondeur les pores, absorber l'excès de sébum et laisser la peau douce et rafraîchie.",
-      "image": "https://unsplash.com/photos/a-small-jar-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 24.99,
-      "categories": [4]
     }
   ],
   
@@ -267,27 +243,6 @@
       "produits": [
         {"titre": "T-shirt en coton bio", "quantité": 3, "montant": 89.97},
         {"titre": "Jeans slim", "quantité": 1, "montant": 59.99}
-      ]
-    },
-    {
-      "id": 3,
-      "produits": [
-        {"titre": "Coussin décoratif", "quantité": 2, "montant": 49.98},
-        {"titre": "Lampe de bureau LED", "quantité": 1, "montant": 49.99}
-      ]
-    },
-    {
-      "id": 4,
-      "produits": [
-        {"titre": "Crème hydratante", "quantité": 1, "montant": 34.99},
-        {"titre": "Serum anti-âge", "quantité": 1, "montant": 49.99}
-      ]
-    },
-    {
-      "id": 5,
-      "produits": [
-        {"titre": "Vélo de course", "quantité": 1, "montant": 1499.99},
-        {"titre": "Casque Bluetooth", "quantité": 1, "montant": 199.99}
       ]
     }
    
