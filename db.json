@@ -326,13 +326,6 @@
         { "titre": "Chaussures running", "quantité": 1, "montant": 89.99 },
         { "titre": "Tapis de yoga", "quantité": 1, "montant": 29.99 }
       ]
-    },
-    {
-      "id": 12,
-      "produits": [
-        { "titre": "Machine à café", "quantité": 1, "montant": 129.99 },
-        { "titre": "Café en grains", "quantité": 3, "montant": 38.97 }
-      ]
     }
   ]
 }
