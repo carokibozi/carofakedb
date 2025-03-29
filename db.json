@@ -1,218 +1,238 @@
 {
-  "users": [
-    {"id": 1, "nom": "Dupont", "prenom": "Jean"},
-    {"id": 2, "nom": "Martin", "prenom": "Sophie"},
-    {"id": 3, "nom": "Bernard", "prenom": "Pierre"},
-    {"id": 4, "nom": "Thomas", "prenom": "Marie"},
-    {"id": 5, "nom": "Petit", "prenom": "Luc"},
-    {"id": 6, "nom": "Robert", "prenom": "Julie"},
-    {"id": 7, "nom": "Richard", "prenom": "Thomas"},
-    {"id": 8, "nom": "Durand", "prenom": "Camille"},
-    {"id": 9, "nom": "Dubois", "prenom": "Nicolas"},
-    {"id": 10, "nom": "Moreau", "prenom": "Isabelle"},
-    {"id": 11, "nom": "Laurent", "prenom": "David"},
-    {"id": 12, "nom": "Simon", "prenom": "Caroline"},
-    {"id": 13, "nom": "Michel", "prenom": "Alexandre"},
-    {"id": 14, "nom": "Lefebvre", "prenom": "Valérie"},
-    {"id": 15, "nom": "Leroy", "prenom": "François"},
-    {"id": 16, "nom": "Roux", "prenom": "Élodie"},
-    {"id": 17, "nom": "David", "prenom": "Sébastien"},
-    {"id": 18, "nom": "Bertrand", "prenom": "Anne"},
-    {"id": 19, "nom": "Morel", "prenom": "Philippe"},
-    {"id": 20, "nom": "Fournier", "prenom": "Céline"}
+  "utilisateurs": [
+    { "id": 1, "nom": "Dupont", "prenom": "Jean" },
+    { "id": 2, "nom": "Martin", "prenom": "Sophie" },
+    { "id": 3, "nom": "Bernard", "prenom": "Pierre" },
+    { "id": 4, "nom": "Thomas", "prenom": "Marie" },
+    { "id": 5, "nom": "Petit", "prenom": "Luc" },
+    { "id": 6, "nom": "Robert", "prenom": "Julie" },
+    { "id": 7, "nom": "Richard", "prenom": "Thomas" },
+    { "id": 8, "nom": "Durand", "prenom": "Camille" },
+    { "id": 9, "nom": "Dubois", "prenom": "Nicolas" },
+    { "id": 10, "nom": "Moreau", "prenom": "Isabelle" },
+    { "id": 11, "nom": "Laurent", "prenom": "David" },
+    { "id": 12, "nom": "Simon", "prenom": "Valérie" },
+    { "id": 13, "nom": "Michel", "prenom": "Christophe" },
+    { "id": 14, "nom": "Lefebvre", "prenom": "Sandrine" },
+    { "id": 15, "nom": "Leroy", "prenom": "François" },
+    { "id": 16, "nom": "Roux", "prenom": "Céline" },
+    { "id": 17, "nom": "David", "prenom": "Patrick" },
+    { "id": 18, "nom": "Bertrand", "prenom": "Elodie" },
+    { "id": 19, "nom": "Morel", "prenom": "Guillaume" },
+    { "id": 20, "nom": "Fournier", "prenom": "Caroline" }
   ],
   
-  "categories": [
-    {"id": 1, "name": "Électronique"},
-    {"id": 2, "name": "Vêtements"},
-    {"id": 3, "name": "Maison"},
-    {"id": 4, "name": "Beauté"},
-    {"id": 5, "name": "Sport"},
-    {"id": 6, "name": "Jouets"},
-    {"id": 7, "name": "Alimentation"},
-    {"id": 8, "name": "Livres"},
-    {"id": 9, "name": "Bricolage"},
-    {"id": 10, "name": "Automobile"}
-  ],
-  
-  "products": [
+  "produits": [
     {
       "id": 1,
-      "titre": "Smartphone Premium",
-      "description": "Un smartphone haut de gamme avec écran AMOLED de 6.5 pouces, processeur rapide et triple caméra professionnelle pour des photos exceptionnelles.",
-      "image": "https://unsplash.com/photos/a-black-smartphone-with-a-white-case-on-a-white-surface-9G7z6BmZQfI",
+      "titre": "Smartphone haut de gamme",
+      "description": "Un smartphone puissant avec écran AMOLED, processeur rapide et appareil photo professionnel pour des photos exceptionnelles.",
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
       "prix": 899.99,
-      "categories": [1]
+      "categories": [1, 3]
     },
     {
       "id": 2,
-      "titre": "Casque Bluetooth",
-      "description": "Casque audio sans fil avec réduction de bruit active, autonomie de 30 heures et qualité sonore haute définition pour une expérience immersive.",
-      "image": "https://unsplash.com/photos/a-pair-of-black-headphones-sitting-on-top-of-a-white-table-OD9EOzfSOh0",
-      "prix": 199.99,
-      "categories": [1]
+      "titre": "Casque audio sans fil",
+      "description": "Casque Bluetooth avec réduction de bruit active pour une expérience d'écoute immersive et sans distractions.",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxoZWFkcGhvbmVzfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 249.99,
+      "categories": [1, 4]
     },
     {
       "id": 3,
-      "titre": "T-shirt en coton bio",
-      "description": "T-shirt confectionné en coton biologique, coupe moderne et design minimaliste pour un look élégant et confortable toute la journée.",
-      "image": "https://unsplash.com/photos/a-white-t-shirt-is-laying-on-a-wooden-table-7gL1ArHxQ4E",
-      "prix": 29.99,
-      "categories": [2]
+      "titre": "Montre connectée",
+      "description": "Montre intelligente avec suivi d'activité, monitoring cardiaque et notifications smartphone pour rester connecté.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxzbWFydHdhdGNofGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 199.99,
+      "categories": [1, 5]
     },
     {
       "id": 4,
-      "titre": "Jeans slim",
-      "description": "Jeans ajusté fabriqué avec du denim stretch pour un maximum de confort, disponible en plusieurs coloris pour s'adapter à tous les styles.",
-      "image": "https://unsplash.com/photos/a-pair-of-blue-jeans-are-folded-on-a-table-8gVv6nxq6gY",
-      "prix": 59.99,
-      "categories": [2]
+      "titre": "Ordinateur portable",
+      "description": "PC portable performant avec processeur rapide, SSD et carte graphique dédiée pour le travail et les jeux.",
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxsYXB0b3B8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 1299.99,
+      "categories": [1, 6]
     },
     {
       "id": 5,
-      "titre": "Coussin décoratif",
-      "description": "Coussin d'intérieur avec motif géométrique, remplissage en plumes synthétiques et housse amovible pour un entretien facile.",
-      "image": "https://unsplash.com/photos/a-white-pillow-sitting-on-top-of-a-wooden-chair-7gL1ArHxQ4E",
-      "prix": 24.99,
-      "categories": [3]
+      "titre": "Enceinte Bluetooth",
+      "description": "Enceinte portable avec son haute qualité, résistante à l'eau pour une utilisation en intérieur comme en extérieur.",
+      "image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxibHVldG9vdGglMjBzcGVha2VyfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 129.99,
+      "categories": [1, 4]
     },
     {
       "id": 6,
-      "titre": "Lampe de bureau LED",
-      "description": "Lampe de travail réglable avec technologie LED économe en énergie, intensité lumineuse variable et design ergonomique moderne.",
-      "image": "https://unsplash.com/photos/a-white-desk-lamp-sitting-on-top-of-a-wooden-table-7gL1ArHxQ4E",
-      "prix": 49.99,
-      "categories": [3]
+      "titre": "Sac à dos élégant",
+      "description": "Sac à dos spacieux avec compartiments organisés et design moderne pour un usage professionnel ou quotidien.",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxiYWNrcGFja3xlbnwwfHx8fDE3NDMyNzA3MDJ8MA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 79.99,
+      "categories": [2, 7]
     },
     {
       "id": 7,
-      "titre": "Crème hydratante",
-      "description": "Crème visage hydratante à l'acide hyaluronique pour une peau repulpée et protégée des agressions extérieures toute la journée.",
-      "image": "https://unsplash.com/photos/a-white-jar-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 34.99,
-      "categories": [4]
+      "titre": "Chaussures de running",
+      "description": "Chaussures de sport légères et confortables avec amorti optimal pour les coureurs occasionnels ou réguliers.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxydW5uaW5nJTIwc2hvZXN8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 89.99,
+      "categories": [2, 8]
     },
     {
       "id": 8,
-      "titre": "Vélo de course",
-      "description": "Vélo de route léger avec cadre en carbone, transmission précise et freins à disque pour des performances optimales sur route.",
-      "image": "https://unsplash.com/photos/a-black-bicycle-leaning-against-a-wall-7gL1ArHxQ4E",
-      "prix": 1499.99,
-      "categories": [5]
+      "titre": "T-shirt en coton bio",
+      "description": "T-shirt confectionné en coton biologique doux et respirant pour un confort optimal tout au long de la journée.",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx0LXNoaXJ0fGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 29.99,
+      "categories": [2, 9]
     },
     {
       "id": 9,
-      "titre": "Lego Creator",
-      "description": "Set de construction avec 1500 pièces pour créer différents modèles selon votre imagination, stimulant la créativité des enfants.",
-      "image": "https://unsplash.com/photos/a-set-of-colored-blocks-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 89.99,
-      "categories": [6]
+      "titre": "Cafetière programmable",
+      "description": "Machine à café avec minuterie et fonction keep-warm pour préparer votre café exactement comme vous l'aimez.",
+      "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBtYWNoaW5lfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 59.99,
+      "categories": [3, 10]
     },
     {
       "id": 10,
-      "titre": "Chocolats assortis",
-      "description": "Assortiment de chocolats fins avec différentes garnitures, fabriqués artisanalement à partir de cacao d'origine équitable.",
-      "image": "https://unsplash.com/photos/a-box-of-chocolates-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 19.99,
-      "categories": [7]
+      "titre": "Mixeur professionnel",
+      "description": "Mixeur haute puissance avec lames en acier inoxydable pour préparer smoothies, soupes et sauces en quelques secondes.",
+      "image": "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxibGVuZGVyfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 89.99,
+      "categories": [3, 10]
     },
     {
       "id": 11,
-      "titre": "Roman best-seller",
-      "description": "Dernier roman à suspense d'un auteur primé, avec une intrigue captivante et des personnages complexes qui vous tiendront en haleine.",
-      "image": "https://unsplash.com/photos/a-book-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 14.99,
-      "categories": [8]
+      "titre": "Livre de cuisine",
+      "description": "Recueil de 200 recettes internationales avec instructions détaillées et photos pour cuisiniers de tous niveaux.",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxib29rfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 24.99,
+      "categories": [4, 7]
     },
     {
       "id": 12,
-      "titre": "Perceuse sans fil",
-      "description": "Perceuse-visseuse puissante avec batterie lithium-ion, couple réglable et système de changement rapide de mèches pour tous vos projets.",
-      "image": "https://unsplash.com/photos/a-black-drill-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 129.99,
-      "categories": [9]
+      "titre": "Coussin ergonomique",
+      "description": "Coussin de siège conçu pour améliorer la posture et réduire les douleurs dorsales lors de longues heures assis.",
+      "image": "https://images.unsplash.com/photo-1579965342575-16428a7c8881?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxjdXNoaW9ufGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 39.99,
+      "categories": [5, 7]
     },
     {
       "id": 13,
-      "titre": "Kit de nettoyage voiture",
-      "description": "Ensemble complet pour l'entretien automobile comprenant shampooing, cire, chiffons microfibres et produits pour plastiques intérieurs.",
-      "image": "https://unsplash.com/photos/a-set-of-cleaning-products-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 39.99,
-      "categories": [10]
+      "titre": "Lampe de bureau LED",
+      "description": "Lampe ajustable avec éclairage LED réglable en intensité et température de couleur pour un éclairage optimal.",
+      "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxkZXNrJTIwbGFtcHxlbnwwfHx8fDE3NDMyNzA3MDJ8MA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 49.99,
+      "categories": [5, 6]
     },
     {
       "id": 14,
-      "titre": "Montre connectée",
-      "description": "Montre intelligente avec suivi d'activité, monitoring cardiaque, notifications smartphone et autonomie de 7 jours pour rester connecté.",
-      "image": "https://unsplash.com/photos/a-black-smartwatch-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 249.99,
-      "categories": [1]
+      "titre": "Set de cuisine en acier",
+      "description": "Ensemble complet de 12 pièces en acier inoxydable 18/10 pour une cuisine professionnelle à domicile.",
+      "image": "https://images.unsplash.com/photo-1583773727931-838148f156e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwdG9vbHN8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 149.99,
+      "categories": [3, 10]
     },
     {
       "id": 15,
-      "titre": "Pull en laine",
-      "description": "Pull chaud en laine mérinos, coupe droite et col rond, idéal pour les saisons froides tout en restant élégant et confortable.",
-      "image": "https://unsplash.com/photos/a-gray-sweater-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 79.99,
-      "categories": [2]
+      "titre": "Bouteille d'eau isotherme",
+      "description": "Gourde maintient les boissons chaudes pendant 12 heures et froides pendant 24 heures, parfaite pour les voyages.",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx3YXRlciUyMGJvdHRsZXxlbnwwfHx8fDE3NDMyNzA3MDJ8MA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 24.99,
+      "categories": [3, 7]
     },
     {
       "id": 16,
-      "titre": "Cafetière programmable",
-      "description": "Machine à café filtre avec minuterie, fonction keep-warm et filtre permanent pour préparer votre café préféré automatiquement le matin.",
-      "image": "https://unsplash.com/photos/a-black-coffee-maker-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 59.99,
-      "categories": [3]
+      "titre": "Jeu de société stratégique",
+      "description": "Jeu de plateau pour 2-4 joueurs avec mécanismes innovants et parties d'environ 60 minutes d'engagement.",
+      "image": "https://images.unsplash.com/photo-1585506942812-e72b29cef752?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxib2FyZCUyMGdhbWV8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 34.99,
+      "categories": [4, 9]
     },
     {
       "id": 17,
-      "titre": "Serum anti-âge",
-      "description": "Sérum concentré en vitamine C et E pour réduire les signes de l'âge, unifier le teint et protéger la peau des radicaux libres.",
-      "image": "https://unsplash.com/photos/a-small-bottle-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 49.99,
-      "categories": [4]
+      "titre": "Peluche ours en peluche",
+      "description": "Ours en peluche doux et câlin, parfait cadeau pour les enfants avec des matériaux hypoallergéniques.",
+      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx0ZWRkeSUyMGJlYXJ8ZW58MHx8fHwxNzQzMjcwNzAyfDA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 19.99,
+      "categories": [4, 8]
     },
     {
       "id": 18,
-      "titre": "Tapis de yoga",
-      "description": "Tapis antidérapant épais pour le yoga et le pilates, offrant un bon amorti et une excellente adhérence pendant les séances d'entraînement.",
-      "image": "https://unsplash.com/photos/a-blue-yoga-mat-rolled-up-on-a-white-table-7gL1ArHxQ4E",
-      "prix": 34.99,
-      "categories": [5]
+      "titre": "Tapis de yoga antidérapant",
+      "description": "Tapis écologique avec excellente adhérence et coussinage pour une pratique confortable du yoga ou du fitness.",
+      "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHx5b2dhJTIwbWF0fGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 29.99,
+      "categories": [5, 8]
     },
     {
       "id": 19,
-      "titre": "Puzzle 1000 pièces",
-      "description": "Puzzle complexe avec motif artistique de haute qualité, pièces découpées avec précision pour un défi stimulant et relaxant.",
-      "image": "https://unsplash.com/photos/a-jigsaw-puzzle-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 24.99,
-      "categories": [6]
+      "titre": "Drone avec caméra 4K",
+      "description": "Drone compact avec stabilisation d'image et transmission vidéo en direct pour capturer des vues aériennes époustouflantes.",
+      "image": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxkcm9uZXxlbnwwfHx8fDE3NDMyNzA3MDJ8MA&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 499.99,
+      "categories": [1, 5]
     },
     {
       "id": 20,
-      "titre": "Huile d'olive premium",
-      "description": "Huile d'olive extra vierge de première pression à froid, produite artisanalement pour une saveur fruitée intense et des arômes complexes.",
-      "image": "https://unsplash.com/photos/a-bottle-of-olive-oil-sitting-on-top-of-a-white-table-7gL1ArHxQ4E",
-      "prix": 29.99,
-      "categories": [7]
+      "titre": "Console de jeu portable",
+      "description": "Console de nouvelle génération avec écran tactile et bibliothèque de jeux intégrée pour le divertissement mobile.",
+      "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBjb25zb2xlfGVufDB8fHx8MTc0MzI3MDcwMnww&ixlib=rb-4.0.3&q=80&w=400",
+      "prix": 299.99,
+      "categories": [1, 4]
     }
+  ],
+  
+  "categories": [
+    { "id": 1, "nom": "Électronique" },
+    { "id": 2, "nom": "Mode" },
+    { "id": 3, "nom": "Maison" },
+    { "id": 4, "nom": "Loisirs" },
+    { "id": 5, "nom": "Bureau" },
+    { "id": 6, "nom": "Informatique" },
+    { "id": 7, "nom": "Accessoires" },
+    { "id": 8, "nom": "Sport" },
+    { "id": 9, "nom": "Enfants" },
+    { "id": 10, "nom": "Cuisine" }
   ],
   
   "paniers": [
     {
       "id": 1,
       "produits": [
-        {"titre": "Smartphone Premium", "quantité": 1, "montant": 899.99},
-        {"titre": "Casque Bluetooth", "quantité": 1, "montant": 199.99}
+        { "titre": "Smartphone haut de gamme", "quantité": 1, "montant": 899.99 },
+        { "titre": "Casque audio sans fil", "quantité": 2, "montant": 499.98 }
       ]
     },
     {
       "id": 2,
       "produits": [
-        {"titre": "T-shirt en coton bio", "quantité": 3, "montant": 89.97},
-        {"titre": "Jeans slim", "quantité": 1, "montant": 59.99}
+        { "titre": "T-shirt en coton bio", "quantité": 3, "montant": 89.97 },
+        { "titre": "Sac à dos élégant", "quantité": 1, "montant": 79.99 }
+      ]
+    },
+    {
+      "id": 3,
+      "produits": [
+        { "titre": "Cafetière programmable", "quantité": 1, "montant": 59.99 },
+        { "titre": "Bouteille d'eau isotherme", "quantité": 2, "montant": 49.98 }
+      ]
+    },
+    {
+      "id": 4,
+      "produits": [
+        { "titre": "Drone avec caméra 4K", "quantité": 1, "montant": 499.99 },
+        { "titre": "Console de jeu portable", "quantité": 1, "montant": 299.99 }
+      ]
+    },
+    {
+      "id": 5,
+      "produits": [
+        { "titre": "Chaussures de running", "quantité": 1, "montant": 89.99 },
+        { "titre": "Tapis de yoga antidérapant", "quantité": 1, "montant": 29.99 }
       ]
     }
-   
   ]
 }
