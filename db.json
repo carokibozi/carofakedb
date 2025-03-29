@@ -313,55 +313,7 @@
         {"titre": "Vélo de course", "quantité": 1, "montant": 1499.99},
         {"titre": "Casque Bluetooth", "quantité": 1, "montant": 199.99}
       ]
-    },
-    {
-      "id": 6,
-      "produits": [
-        {"titre": "Lego Creator", "quantité": 1, "montant": 89.99},
-        {"titre": "Puzzle 1000 pièces", "quantité": 1, "montant": 24.99}
-      ]
-    },
-    {
-      "id": 7,
-      "produits": [
-        {"titre": "Chocolats assortis", "quantité": 2, "montant": 39.98},
-        {"titre": "Huile d'olive premium", "quantité": 1, "montant": 29.99}
-      ]
-    },
-    {
-      "id": 8,
-      "produits": [
-        {"titre": "Roman best-seller", "quantité": 1, "montant": 14.99},
-        {"titre": "Cahier premium", "quantité": 2, "montant": 39.98}
-      ]
-    },
-    {
-      "id": 9,
-      "produits": [
-        {"titre": "Perceuse sans fil", "quantité": 1, "montant": 129.99},
-        {"titre": "Scie circulaire", "quantité": 1, "montant": 149.99}
-      ]
-    },
-    {
-      "id": 10,
-      "produits": [
-        {"titre": "Kit de nettoyage voiture", "quantité": 1, "montant": 39.99},
-        {"titre": "Kit d'éclairage LED voiture", "quantité": 1, "montant": 69.99}
-      ]
-    },
-    {
-      "id": 11,
-      "produits": [
-        {"titre": "Montre connectée", "quantité": 1, "montant": 249.99},
-        {"titre": "Enceinte Bluetooth", "quantité": 1, "montant": 129.99}
-      ]
-    },
-    {
-      "id": 12,
-      "produits": [
-        {"titre": "Pull en laine", "quantité": 1, "montant": 79.99},
-        {"titre": "Veste en cuir", "quantité": 1, "montant": 299.99}
-      ]
     }
+   
   ]
 }
