@@ -172,13 +172,6 @@
         { "titre": "T-shirt en coton bio", "quantité": 3, "montant": 89.97 },
         { "titre": "Sac à dos élégant", "quantité": 1, "montant": 79.99 }
       ]
-    },
-    {
-      "id": 3,
-      "produits": [
-        { "titre": "Cafetière programmable", "quantité": 1, "montant": 59.99 },
-        { "titre": "Bouteille d'eau isotherme", "quantité": 2, "montant": 49.98 }
-      ]
     }
   ]
 }
